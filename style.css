@@ -1,0 +1,323 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(142deg, rgba(53,81,155,1) 0%, rgba(1,8,20,1) 63%);
+  }
+.cards {
+	margin: 0px 0px 0px 0px;
+height: 100%;
+}
+.cards__row{
+	margin: 0px 0px 0px 0px;
+	display: flex;
+}
+.cards__column {
+	flex: 0 1 33.333%;
+	padding: 0px 0px;
+}
+.cards__item {
+}
+.cards__image {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 40% 0px;
+	overflow: hidden;
+	position: relative;
+}
+.cards__image img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.cards__body {
+	
+}
+input[type=radio] {
+  display: none;
+}
+label {
+  display: inline-block;
+  margin-right: 0px;
+  cursor: pointer;
+  position: relative;
+}
+label img {
+  border: px solid #ccc;
+  padding: 5px;
+}
+label input[type=radio][value="ВІДМІННО"]:checked + img,
+label input[type=radio][value="ЗАХОПЛЮЮЧИЙ СЕРВІC"]:checked + img,
+label input[type=radio][value="ПРЕКРАСНИЙ"]:checked + img {
+  border-color: #ff0000;
+   width: 90px;
+   background-color: rgba(224, 12, 210, 0.27);
+   animation-name: fadeIn;
+    opacity: 1;
+     animation-duration: 1s;
+     border-radius: 310px;
+ }
+ label input[type=radio][value="ХОРОША"]:checked + img,
+label input[type=radio][value="КВАЛІФІКОВАНІ ІНЖЕНЕРИ"]:checked + img,
+ label input[type=radio][value="ЧУДОВИЙ"]:checked + img {
+   border-color: #ff0000;
+    width: 90px;
+    background-color: rgba(187, 225, 16, 0.27);
+    animation-name: fadeIn;
+     opacity: 1;
+      animation-duration: 1s;
+      border-radius: 310px;
+  }
+  label input[type=radio][value="СЕРЕДНЬО"]:checked + img,
+label input[type=radio][value="ТРІШКИ УДОСКОНАЛИТИ"]:checked + img,
+  label input[type=radio][value="БАЖАЄ КРАЩОГО"]:checked + img {
+   border-color: #ff0000;
+    width: 90px;
+    background-color: rgba(237, 162, 0, 0.27);
+    animation-name: fadeIn;
+     opacity: 1;
+      animation-duration: 1s;
+      border-radius: 310px;
+  }
+  label input[type=radio][value="ПОТРЕБУЄ ПОКРАЩЕННЯ"]:checked + img,
+label input[type=radio][value="ТАК СОБІ"]:checked + img,
+  label input[type=radio][value="НЕВДАЛИЙ ДЕНЬ"]:checked + img {
+   border-color: #ff0000;
+    width: 90px;
+    background-color: rgba(237, 71, 0, 0.27);
+    animation-name: fadeIn;
+     opacity: 1;
+      animation-duration: 1s;
+      border-radius: 310px;
+  }
+  label input[type=radio][value="ДУЖЕ ПОВІЛЬНО"]:checked + img,
+label input[type=radio][value="ЖАХЛИВИЙ СЕРВІС"]:checked + img,
+  label input[type=radio][value="КЕПСЬКО"]:checked + img {
+   border-color: #ff0000;
+    width: 90px;
+    background-color: rgba(245, 5, 5, 0.27);
+    animation-name: fadeIn;
+     opacity: 1;
+      animation-duration: 1s;
+      border-radius: 310px;
+  }
+.xxx{
+width: 70px;
+}
+.otstup1{
+margin: 20px 0px 0px 0px;
+}
+.controlmain{
+color: #FFFFFF ;
+font-weight: bold;
+}
+.control2{
+color: #FFFFFF ;
+margin: 5px 20px 0px 10px;
+font-size: 20px;
+}
+.submit1{
+border-radius: 15px;
+font-size: 16px;
+color: #FFFFFF;
+}
+.user-box {
+  width: 70%;
+  padding: 1px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: px;
+  border: none;
+  border-bottom: 0.5px solid #ffffff;
+  outline: none;
+  background: transparent;
+}
+.tex{
+  color: #FFFFFF ;
+}
+.bar  { position:relative; display:block;  }
+.bar:before, .bar:after   {
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:0px; 
+  position:absolute;
+  background:#FF8206; 
+  transition:0.3s ease all; 
+  -moz-transition:0.3s ease all; 
+  -webkit-transition:0.3s ease all;
+}
+.bar:before {
+  left:35%;
+}
+.bar:after {
+  right:35%; 
+}
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+@-webkit-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+
+input         {
+  border:none;
+  background: transparent;
+}
+.my-element1 {
+   box-shadow: 0 0 10px 5px rgba(121, 127, 142, 0.5);
+   margin: 0px 3px 0px 3px;
+   width: 500px;
+height: 110px; background-color: rgba(217, 217, 217, 0.21);
+border-radius: 31px;
+}
+.my-element2{
+  margin: 20px 3px 0px 3px;
+  box-shadow: 0 0 10px 5px rgba(121, 127, 142, 0.5);
+width: 500px;
+height: 125px; background-color: rgba(217, 217, 217, 0.21);
+border-radius: 31px;
+}
+
+.my-element6{
+  margin: 20px 3px 0px 3px;
+  box-shadow: 0 0 10px 5px rgba(121, 127, 142, 0.5);
+width: 500px;
+height: 80px; background-color: rgba(217, 217, 217, 0.21);
+border-radius: 31px;
+}
+.my-element7{
+  margin: 20px 3px 0px 3px;
+  box-shadow: 0 0 10px 5px rgba(121, 127, 142, 0.5);
+width: 500px;
+height: 115px; background-color: rgba(217, 217, 217, 0.21);
+border-radius: 31px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 15px;
+    margin: 0px 0;
+    color: #f4e403;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 0px;
+    background-color: rgba(121, 127, 142, 0.5);
+    text-align: center;
+    border-radius: 15px;
+}
+a:hover{
+    background: #35519B;
+    color: #35519B;
+    box-shadow: 0 0 5px #35519B,
+                0 0 25px #35519B,
+                0 0 50px #35519B,
+                0 0 200px #35519B;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+a span{
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(90deg,transparent,#35519B);
+    animation: animate1 2s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 6px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#35519B);
+    animation: animate2 2s linear infinite;
+    animation-delay: 0.50s;
+}
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(270deg,transparent,#35519B);
+    animation: animate3 2s linear infinite;
+    animation-delay: 1.0s;
+}
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
+a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 6px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#35519B);
+    animation: animate4 2s linear infinite;
+    animation-delay: 1.50s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
+}
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: rgba(53,81,155,1);
+  }
+}
+@media (max-width: 396px) {
+  body {
+    min-width: 396px;
+  }
+}
+
