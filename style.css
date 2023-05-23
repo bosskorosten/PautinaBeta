@@ -1,8 +1,11 @@
-body, html {
+body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(142deg, rgba(53,81,155,1) 0%, rgba(1,8,20,1) 63%);
+  height: 100%;
+  background: linear-gradient(142deg, rgba(53,81,155,1) 0%, rgba(1,8,20,1) 63%) fixed;
+  z-index: -10;
   }
+
 .cards {
 	margin: 0px 0px 0px 0px;
 height: 100%;
@@ -31,9 +34,7 @@ height: 100%;
 	top: 0;
 	left: 0;
 }
-.cards__body {
-	
-}
+
 input[type=radio] {
   display: none;
 }
